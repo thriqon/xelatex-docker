@@ -12,7 +12,7 @@ RUN apt-get update -y \
 			texlive-bibtex-extra \
 			fontconfig \
 			texlive-xetex \
+			ghostscript \
 			lmodern
 
-ENTRYPOINT ["/usr/bin/xelatex"]
-
+WORKDIR "/source/"
