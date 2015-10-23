@@ -10,14 +10,9 @@ RUN apt-get update -y \
 			texlive-latex-extra \
 			texlive-fonts-extra \
 			texlive-bibtex-extra \
-			biber \
 			fontconfig \
 			texlive-xetex \
 			ghostscript \
-			lmodern \
-			default-jre
-
-RUN mkdir -p /usr/local/lib &&\
-	wget http://sourceforge.net/projects/plantuml/files/plantuml.jar/download -O /usr/local/lib/plantuml.jar
+			lmodern
 
 WORKDIR "/source/"
