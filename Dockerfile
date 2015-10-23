@@ -10,6 +10,7 @@ RUN apt-get update -y \
 			texlive-latex-extra \
 			texlive-fonts-extra \
 			texlive-bibtex-extra \
+			biber \
 			fontconfig \
 			texlive-xetex \
 			ghostscript \
