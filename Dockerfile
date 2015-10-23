@@ -14,6 +14,10 @@ RUN apt-get update -y \
 			fontconfig \
 			texlive-xetex \
 			ghostscript \
-			lmodern
+			lmodern \
+			default-jre
+
+RUN mkdir -p /usr/local/lib &&\
+	wget http://sourceforge.net/projects/plantuml/files/plantuml.jar/download -O /usr/local/lib/plantuml.jar
 
 WORKDIR "/source/"
