@@ -11,6 +11,7 @@ RUN apt-get update -y \
 			texlive-fonts-extra \
 			texlive-bibtex-extra \
 			fontconfig \
+			pgf \
 			texlive-xetex \
 			ghostscript \
 			lmodern
